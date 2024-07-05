@@ -1,0 +1,28 @@
+div {
+    width: 200px;
+    height: 200px;
+
+    background-color: lightblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* 
+    for div center of page
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%); 
+    or
+    transform: translate(-50%,-50%); */
+
+    /* 
+    for div center vertically 
+    top: 50%;
+    transform: translateY(-50%); */
+
+    /* 
+    for div center horizontally
+    left: 50%;
+    transform: translateX(-50%); */
+}
